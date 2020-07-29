@@ -1,0 +1,35 @@
+i.eci { 
+display: block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+     }
+     .select2-container i.eci,
+     .elementor-icon-list-icon i.eci {
+       display: inline-block;
+     }
+     .elementor-icons-manager__tab__item__icon.eci {
+    font-size: 28px;
+}
+.elementor-icons-manager__tab-link i.eci {
+    display: inline-block;
+    font-size: 18px;
+}
+@font-face {
+ font-family: 'contacticons';
+  src: url('./fontello-36ad1c32.zip/fontello-36ad1c32/font/contacticons.eot?1023855913');
+  src: url('./fontello-36ad1c32.zip/fontello-36ad1c32/font/contacticons.eot?1023855913#iefix') format('embedded-opentype'),
+       url('./fontello-36ad1c32.zip/fontello-36ad1c32/font/contacticons.woff2?1023855913') format('woff2'),
+       url('./fontello-36ad1c32.zip/fontello-36ad1c32/font/contacticons.woff?1023855913') format('woff'),
+       url('./fontello-36ad1c32.zip/fontello-36ad1c32/font/contacticons.ttf?1023855913') format('truetype'),
+       url('./fontello-36ad1c32.zip/fontello-36ad1c32/font/contacticons.svg?1023855913#contacticons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.eci.contacticons-location-outline::before { content: '\e800'; font-family: 'contacticons'; }
+.eci.contacticons-phone-squared::before { content: '\f098'; font-family: 'contacticons'; }
+.eci.contacticons-mail-alt::before { content: '\f0e0'; font-family: 'contacticons'; }
+
+
